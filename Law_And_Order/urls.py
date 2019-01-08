@@ -20,4 +20,5 @@ from django.views.generic import TemplateView
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('',TemplateView.as_view(template_name='Citizen/cityzen_home.html')),
+    path('better',TemplateView.as_view(template_name='Citizen/cityzen_home.html')),
 ]
